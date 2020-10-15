@@ -1,0 +1,18 @@
+Please follow the following procedure to run our application:
+
+Step 1: Please save "CSE_531_Project_4.zip".
+
+Step 2: Unzip the file you will find a directory "CSE_531_Project_4" containing the files: msgs_test.c, msgs.h, q.h, sem.h, TCB.h and threads.h
+
+Step 3: Please save the files in a directory and open terminal in the same directory. 
+
+Step 4: To compile and run the msgs_test.c please give the following commands:
+
+        To compile : gcc msgs_test.c
+        To run:      ./a.out
+
+The application will start message passing between 3 clients and 2 servers. The allocation of clients to servers is random.
+ 
+
+
+        
