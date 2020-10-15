@@ -1,2 +1,3 @@
 # DMOS-
-Incremental projects of Distributed and Multiprocessor Operating Systems concept 
+Incrementally build projects showcasing key concepts for Distributed and Multiprocessor Operating Systems 
+
