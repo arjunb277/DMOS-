@@ -1,0 +1,14 @@
+Please follow the following procedure to run the application:
+
+- This application is for a Linux machine. 
+
+To compile and run main.c please give the following commands:
+
+        To compile : gcc -o thread_test thread_test.c
+        To run:      ./thread_test
+
+NOTE:
+
+-The thread_test.c code has four threads, threads with ID 1 and 2 call function f1 and threads with ID three and four call function f2.
+-Both function f1 and f2 increment a global counter and their respective local counts.
+-As expected the the global count is shared by all threads and the local counts are not.
