@@ -1,0 +1,19 @@
+Please follow the following procedure to run the application:
+
+Step 1: Please save "CSE_531_Project_5.zip".
+
+Step 2: Unzip the file you will find a directory "CSE_531_Project_5" containing the files: file_test.c, msgs.h, q.h, sem.h, TCB.h and threads.h
+
+Step 3: Please save the files in a directory and open terminal in the same directory. 
+
+Step 4: To compile and run the msgs_test.c, please give the following commands:
+
+        To compile : gcc file_test.c
+        To run:      ./a.out <num_of_clients> <filenames>                (for eg., ./a.out 5 f1,f2,f3,f4,f5)
+
+The application will start file transfer between multiple clients and a single server. There can be any number of clients from 1-99 but the server receives file data concurrently from only 3 clients at a time. Each client sends file data of a single file. Server also stops the file data transfer once the file size exceeds 1 MB. We assume throughout the project that the clients and server don't share memory.
+Server does not exit and waits on a rcv.
+ 
+
+
+        
