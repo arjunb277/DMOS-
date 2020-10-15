@@ -1,0 +1,15 @@
+
+Please follow the following procedure to run our application:
+
+Step 1: Please save "CSE_531_Project_3.zip".
+
+Step 2: Unzip the file you will find a directory "CSE_531_Project_3" containing the files: read_write_s.c, q.h, sem.h, TCB.h and threads.h
+
+Step 3: Please save the files in a directory and open terminal in the same directory. 
+
+Step 4: To compile and run the read_write_s.c please give the following commands:
+
+        To compile : gcc read_write_s.c
+        To run:      ./a.out
+
+        
